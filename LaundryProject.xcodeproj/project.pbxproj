@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63313CF626434D3500DAF1A3 /* StroeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63313CF526434D3500DAF1A3 /* StroeMenuView.swift */; };
+		63313CFA2643A90000DAF1A3 /* StoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63313CF92643A90000DAF1A3 /* StoreDetailsViewController.swift */; };
+		63313D052644C96B00DAF1A3 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63313D042644C96B00DAF1A3 /* CartViewController.swift */; };
+		63313D0826450DF200DAF1A3 /* ViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63313D0726450DF200DAF1A3 /* ViewAnimation.swift */; };
+		635A9EA62645344C00867C61 /* UnderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635A9EA52645344C00867C61 /* UnderView.swift */; };
+		635A9EA92645589A00867C61 /* SupportCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635A9EA82645589A00867C61 /* SupportCollectionViewCell.swift */; };
+		635A9EAC2645BC5000867C61 /* CobonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635A9EAB2645BC5000867C61 /* CobonList.swift */; };
+		635A9EB22645C24500867C61 /* DateExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635A9EB12645C24500867C61 /* DateExtention.swift */; };
+		635BFE5E2640FE140091DC2E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE5D2640FE140091DC2E /* LoginViewController.swift */; };
+		635BFE6126410B9E0091DC2E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE6026410B9E0091DC2E /* ColorExtension.swift */; };
+		635BFE64264119980091DC2E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE63264119980091DC2E /* RegisterViewController.swift */; };
+		635BFE6E264138230091DC2E /* MyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE6D264138230091DC2E /* MyAlertView.swift */; };
+		635BFE77264140170091DC2E /* failure.json in Resources */ = {isa = PBXBuildFile; fileRef = 635BFE75264140170091DC2E /* failure.json */; };
+		635BFE78264140170091DC2E /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 635BFE76264140170091DC2E /* success.json */; };
+		635BFE7C264140EC0091DC2E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 635BFE7B264140EC0091DC2E /* Lottie */; };
+		635BFE812641F8860091DC2E /* UsersInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE802641F8860091DC2E /* UsersInfo.swift */; };
+		635BFE8526421F540091DC2E /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE8426421F540091DC2E /* MenuBarView.swift */; };
+		635BFE89264260CC0091DC2E /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE88264260CC0091DC2E /* AccountDetailsView.swift */; };
+		635BFE8C2642750D0091DC2E /* ItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE8B2642750D0091DC2E /* ItemsList.swift */; };
+		635BFE8F264276740091DC2E /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE8E264276740091DC2E /* ItemsTableViewCell.swift */; };
+		635BFE922642860C0091DC2E /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BFE912642860C0091DC2E /* ImageExtension.swift */; };
+		63F26D9F2640D33A002A1CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F26D9E2640D33A002A1CFC /* AppDelegate.swift */; };
+		63F26DA12640D33A002A1CFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F26DA02640D33A002A1CFC /* SceneDelegate.swift */; };
+		63F26DA32640D33A002A1CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F26DA22640D33A002A1CFC /* ViewController.swift */; };
+		63F26DA62640D33A002A1CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F26DA42640D33A002A1CFC /* Main.storyboard */; };
+		63F26DA92640D33A002A1CFC /* LaundryProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63F26DA72640D33A002A1CFC /* LaundryProject.xcdatamodeld */; };
+		63F26DAB2640D33E002A1CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F26DAA2640D33E002A1CFC /* Assets.xcassets */; };
+		63F26DAE2640D33E002A1CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F26DAC2640D33E002A1CFC /* LaunchScreen.storyboard */; };
+		63F26DB92640DAC3002A1CFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63F26DB82640DAC3002A1CFC /* GoogleService-Info.plist */; };
+		DFC4F4531398CAC44E14CCA2 /* Pods_LaundryProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567761D3A06E57789784F5A7 /* Pods_LaundryProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3735508B5BA58EF10E15971D /* Pods-LaundryProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaundryProject.release.xcconfig"; path = "Target Support Files/Pods-LaundryProject/Pods-LaundryProject.release.xcconfig"; sourceTree = "<group>"; };
+		567761D3A06E57789784F5A7 /* Pods_LaundryProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaundryProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63313CF526434D3500DAF1A3 /* StroeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroeMenuView.swift; sourceTree = "<group>"; };
+		63313CF92643A90000DAF1A3 /* StoreDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailsViewController.swift; sourceTree = "<group>"; };
+		63313D042644C96B00DAF1A3 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		63313D0726450DF200DAF1A3 /* ViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimation.swift; sourceTree = "<group>"; };
+		635A9EA52645344C00867C61 /* UnderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderView.swift; sourceTree = "<group>"; };
+		635A9EA82645589A00867C61 /* SupportCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportCollectionViewCell.swift; sourceTree = "<group>"; };
+		635A9EAB2645BC5000867C61 /* CobonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobonList.swift; sourceTree = "<group>"; };
+		635A9EB12645C24500867C61 /* DateExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtention.swift; sourceTree = "<group>"; };
+		635BFE5D2640FE140091DC2E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		635BFE6026410B9E0091DC2E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		635BFE63264119980091DC2E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		635BFE6D264138230091DC2E /* MyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertView.swift; sourceTree = "<group>"; };
+		635BFE75264140170091DC2E /* failure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = failure.json; sourceTree = "<group>"; };
+		635BFE76264140170091DC2E /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		635BFE802641F8860091DC2E /* UsersInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInfo.swift; sourceTree = "<group>"; };
+		635BFE8426421F540091DC2E /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		635BFE88264260CC0091DC2E /* AccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; };
+		635BFE8B2642750D0091DC2E /* ItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.swift; sourceTree = "<group>"; };
+		635BFE8E264276740091DC2E /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
+		635BFE912642860C0091DC2E /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		63F26D9B2640D33A002A1CFC /* LaundryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F26D9E2640D33A002A1CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63F26DA02640D33A002A1CFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63F26DA22640D33A002A1CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63F26DA52640D33A002A1CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F26DA82640D33A002A1CFC /* LaundryProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LaundryProject.xcdatamodel; sourceTree = "<group>"; };
+		63F26DAA2640D33E002A1CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F26DAD2640D33E002A1CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63F26DAF2640D33E002A1CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F26DB82640DAC3002A1CFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A3D2707394EC3A4AFEF9E03 /* Pods-LaundryProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaundryProject.debug.xcconfig"; path = "Target Support Files/Pods-LaundryProject/Pods-LaundryProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F26D982640D33A002A1CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC4F4531398CAC44E14CCA2 /* Pods_LaundryProject.framework in Frameworks */,
+				635BFE7C264140EC0091DC2E /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A412BF9585D4F57A50FB82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A3D2707394EC3A4AFEF9E03 /* Pods-LaundryProject.debug.xcconfig */,
+				3735508B5BA58EF10E15971D /* Pods-LaundryProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		635BFE592640DCBD0091DC2E /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				635BFE5D2640FE140091DC2E /* LoginViewController.swift */,
+				635BFE63264119980091DC2E /* RegisterViewController.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		635BFE67264127E50091DC2E /* DesignAndExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				635BFE6026410B9E0091DC2E /* ColorExtension.swift */,
+				635BFE912642860C0091DC2E /* ImageExtension.swift */,
+				63313D0726450DF200DAF1A3 /* ViewAnimation.swift */,
+				635A9EB12645C24500867C61 /* DateExtention.swift */,
+			);
+			path = DesignAndExtensions;
+			sourceTree = "<group>";
+		};
+		635BFE7F2641F8570091DC2E /* DictionaryList */ = {
+			isa = PBXGroup;
+			children = (
+				635BFE802641F8860091DC2E /* UsersInfo.swift */,
+				635BFE8B2642750D0091DC2E /* ItemsList.swift */,
+				635A9EAB2645BC5000867C61 /* CobonList.swift */,
+			);
+			path = DictionaryList;
+			sourceTree = "<group>";
+		};
+		635BFE8326421F3B0091DC2E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				635A9EA52645344C00867C61 /* UnderView.swift */,
+				635BFE6D264138230091DC2E /* MyAlertView.swift */,
+				635BFE8426421F540091DC2E /* MenuBarView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		635BFE872642609E0091DC2E /* DetailsViews */ = {
+			isa = PBXGroup;
+			children = (
+				635BFE88264260CC0091DC2E /* AccountDetailsView.swift */,
+				635BFE8E264276740091DC2E /* ItemsTableViewCell.swift */,
+				63313CF526434D3500DAF1A3 /* StroeMenuView.swift */,
+				63313CF92643A90000DAF1A3 /* StoreDetailsViewController.swift */,
+				63313D042644C96B00DAF1A3 /* CartViewController.swift */,
+				635A9EA82645589A00867C61 /* SupportCollectionViewCell.swift */,
+			);
+			path = DetailsViews;
+			sourceTree = "<group>";
+		};
+		63F26D922640D33A002A1CFC = {
+			isa = PBXGroup;
+			children = (
+				63F26D9D2640D33A002A1CFC /* LaundryProject */,
+				63F26D9C2640D33A002A1CFC /* Products */,
+				03A412BF9585D4F57A50FB82 /* Pods */,
+				A2739286A687A161AB7A6B4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63F26D9C2640D33A002A1CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F26D9B2640D33A002A1CFC /* LaundryProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F26D9D2640D33A002A1CFC /* LaundryProject */ = {
+			isa = PBXGroup;
+			children = (
+				635BFE872642609E0091DC2E /* DetailsViews */,
+				635BFE8326421F3B0091DC2E /* CustomViews */,
+				635BFE7F2641F8570091DC2E /* DictionaryList */,
+				635BFE592640DCBD0091DC2E /* LoginView */,
+				635BFE67264127E50091DC2E /* DesignAndExtensions */,
+				635BFE75264140170091DC2E /* failure.json */,
+				635BFE76264140170091DC2E /* success.json */,
+				63F26D9E2640D33A002A1CFC /* AppDelegate.swift */,
+				63F26DA02640D33A002A1CFC /* SceneDelegate.swift */,
+				63F26DA22640D33A002A1CFC /* ViewController.swift */,
+				63F26DA42640D33A002A1CFC /* Main.storyboard */,
+				63F26DAA2640D33E002A1CFC /* Assets.xcassets */,
+				63F26DAC2640D33E002A1CFC /* LaunchScreen.storyboard */,
+				63F26DAF2640D33E002A1CFC /* Info.plist */,
+				63F26DA72640D33A002A1CFC /* LaundryProject.xcdatamodeld */,
+				63F26DB82640DAC3002A1CFC /* GoogleService-Info.plist */,
+			);
+			path = LaundryProject;
+			sourceTree = "<group>";
+		};
+		A2739286A687A161AB7A6B4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				567761D3A06E57789784F5A7 /* Pods_LaundryProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F26D9A2640D33A002A1CFC /* LaundryProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F26DB22640D33E002A1CFC /* Build configuration list for PBXNativeTarget "LaundryProject" */;
+			buildPhases = (
+				A2F2BB1792F8E0B03D25579C /* [CP] Check Pods Manifest.lock */,
+				63F26D972640D33A002A1CFC /* Sources */,
+				63F26D982640D33A002A1CFC /* Frameworks */,
+				63F26D992640D33A002A1CFC /* Resources */,
+				BDE58D8D5A5E2A48B2CD1302 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaundryProject;
+			packageProductDependencies = (
+				635BFE7B264140EC0091DC2E /* Lottie */,
+			);
+			productName = LaundryProject;
+			productReference = 63F26D9B2640D33A002A1CFC /* LaundryProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F26D932640D33A002A1CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					63F26D9A2640D33A002A1CFC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 63F26D962640D33A002A1CFC /* Build configuration list for PBXProject "LaundryProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F26D922640D33A002A1CFC;
+			packageReferences = (
+				635BFE7A264140EC0091DC2E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 63F26D9C2640D33A002A1CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F26D9A2640D33A002A1CFC /* LaundryProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F26D992640D33A002A1CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F26DAE2640D33E002A1CFC /* LaunchScreen.storyboard in Resources */,
+				63F26DAB2640D33E002A1CFC /* Assets.xcassets in Resources */,
+				635BFE77264140170091DC2E /* failure.json in Resources */,
+				63F26DA62640D33A002A1CFC /* Main.storyboard in Resources */,
+				63F26DB92640DAC3002A1CFC /* GoogleService-Info.plist in Resources */,
+				635BFE78264140170091DC2E /* success.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2F2BB1792F8E0B03D25579C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaundryProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE58D8D5A5E2A48B2CD1302 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaundryProject/Pods-LaundryProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaundryProject/Pods-LaundryProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaundryProject/Pods-LaundryProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F26D972640D33A002A1CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635BFE8C2642750D0091DC2E /* ItemsList.swift in Sources */,
+				635BFE6126410B9E0091DC2E /* ColorExtension.swift in Sources */,
+				635A9EA92645589A00867C61 /* SupportCollectionViewCell.swift in Sources */,
+				63313CF626434D3500DAF1A3 /* StroeMenuView.swift in Sources */,
+				635A9EA62645344C00867C61 /* UnderView.swift in Sources */,
+				63F26DA32640D33A002A1CFC /* ViewController.swift in Sources */,
+				635BFE922642860C0091DC2E /* ImageExtension.swift in Sources */,
+				635BFE812641F8860091DC2E /* UsersInfo.swift in Sources */,
+				635BFE8F264276740091DC2E /* ItemsTableViewCell.swift in Sources */,
+				635BFE64264119980091DC2E /* RegisterViewController.swift in Sources */,
+				63F26DA92640D33A002A1CFC /* LaundryProject.xcdatamodeld in Sources */,
+				635BFE89264260CC0091DC2E /* AccountDetailsView.swift in Sources */,
+				635A9EB22645C24500867C61 /* DateExtention.swift in Sources */,
+				63313CFA2643A90000DAF1A3 /* StoreDetailsViewController.swift in Sources */,
+				63F26D9F2640D33A002A1CFC /* AppDelegate.swift in Sources */,
+				635BFE6E264138230091DC2E /* MyAlertView.swift in Sources */,
+				63313D052644C96B00DAF1A3 /* CartViewController.swift in Sources */,
+				635BFE5E2640FE140091DC2E /* LoginViewController.swift in Sources */,
+				635A9EAC2645BC5000867C61 /* CobonList.swift in Sources */,
+				63313D0826450DF200DAF1A3 /* ViewAnimation.swift in Sources */,
+				63F26DA12640D33A002A1CFC /* SceneDelegate.swift in Sources */,
+				635BFE8526421F540091DC2E /* MenuBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63F26DA42640D33A002A1CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F26DA52640D33A002A1CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F26DAC2640D33E002A1CFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F26DAD2640D33E002A1CFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F26DB02640D33E002A1CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63F26DB12640D33E002A1CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F26DB32640D33E002A1CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3D2707394EC3A4AFEF9E03 /* Pods-LaundryProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27H3C97TXZ;
+				INFOPLIST_FILE = LaundryProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alxd7my.LaundryProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63F26DB42640D33E002A1CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3735508B5BA58EF10E15971D /* Pods-LaundryProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27H3C97TXZ;
+				INFOPLIST_FILE = LaundryProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alxd7my.LaundryProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F26D962640D33A002A1CFC /* Build configuration list for PBXProject "LaundryProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F26DB02640D33E002A1CFC /* Debug */,
+				63F26DB12640D33E002A1CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F26DB22640D33E002A1CFC /* Build configuration list for PBXNativeTarget "LaundryProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F26DB32640D33E002A1CFC /* Debug */,
+				63F26DB42640D33E002A1CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		635BFE7A264140EC0091DC2E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		635BFE7B264140EC0091DC2E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 635BFE7A264140EC0091DC2E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		63F26DA72640D33A002A1CFC /* LaundryProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63F26DA82640D33A002A1CFC /* LaundryProject.xcdatamodel */,
+			);
+			currentVersion = 63F26DA82640D33A002A1CFC /* LaundryProject.xcdatamodel */;
+			path = LaundryProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63F26D932640D33A002A1CFC /* Project object */;
+}
