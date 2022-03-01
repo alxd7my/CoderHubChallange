@@ -81,8 +81,6 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                 callAlertView(text: "كلمة المرور غير مطابقة", type: .failure, time: 1.5)
             } else if !email.text!.lowercased().contains("@gmail.com") && !email.text!.lowercased().contains("@hotmail.com") && !email.text!.lowercased().contains("@yahoo.com") && !email.text!.lowercased().contains("@outlook.com") && !email.text!.lowercased().contains("@outlook.sa") && !email.text!.lowercased().contains("@icloud.com") && !email.text!.lowercased().contains("@icloud.sa") {
                 callAlertView(text: "البريد الالكتروني غير صحيح", type: .failure, time: 1.5)
-            } else if Int(phoneNumber.text!) != nil {
-                callAlertView(text: "الهاتف يحتوي على رموز غير صالحة", type: .failure, time: 1.5)
             } else {
                 
                 Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (auth, err) in

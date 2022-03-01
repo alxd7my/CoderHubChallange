@@ -192,6 +192,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             collectionView.isScrollEnabled = true
         }
     }
+    
     var titleCollection = ["   الرئيسية","   الدعم الفني","   حسابي"]
     
     var currentContent: CGFloat = 0
@@ -237,7 +238,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "menuCell", for: indexPath)
         
         switch indexPath.row {
         case 1:
@@ -257,7 +257,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             return x2Cell
         }
         
-        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

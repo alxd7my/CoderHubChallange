@@ -154,11 +154,9 @@ class AccountDetailsViewCell: UICollectionViewCell, UITableViewDelegate, UITable
         tableView.widthAnchor.constraint(equalTo: widthAnchor).isActive = true
         tableView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         
-//        addSubview(isEmptyLabel)
-//        isEmptyLabel.widthAnchor.constraint(equalTo: widthAnchor).isActive = true
-//        isEmptyLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
-//        isEmptyLabel.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
-//        isEmptyLabel.topAnchor.constraint(equalTo: lineView.bottomAnchor, constant: 90).isActive = true
+        addSubview(isEmptyLabel)
+        isEmptyLabel.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        isEmptyLabel.topAnchor.constraint(equalTo: lineView.bottomAnchor, constant: 90).isActive = true
 
         let info = UILabel()
         info.translatesAutoresizingMaskIntoConstraints = false
@@ -181,7 +179,7 @@ class AccountDetailsViewCell: UICollectionViewCell, UITableViewDelegate, UITable
 
         signOutBtn.addTarget(self, action: #selector(trySignOut), for: .touchUpInside)
      
-//        isEmptyLabelFunc()
+        isEmptyLabelFunc()
     }
     
     func isEmptyLabelFunc() {
